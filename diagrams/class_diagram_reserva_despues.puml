@@ -1,0 +1,9 @@
+@startuml
+class Reserva {
+  -id_reserva: String  
+  -fecha: Date
+  -hora_inicio: Time
+  -hora_fin: Time
+  +modificarReserva(nueva_fecha: Date, nueva_hora_inicio: Time, nueva_hora_fin: Time)
+}
+@enduml

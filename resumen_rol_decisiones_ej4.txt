@@ -1,0 +1,20 @@
+EJERCICIO 4: Breve Resumen de Rol y Decisiones
+
+Rol Asumido:
+Desarrollador dentro de un equipo ágil encargado de implementar nuevas funcionalidades y mantener la documentación del diseño (UML) sincronizada con el código.
+
+Decisiones Clave para la Simulación del Cambio (`id_reserva`):
+1.  **Herramienta UML:** Se continuó usando PlantUML por su facilidad de integración con Git y la revisión textual de cambios en los diagramas.
+2.  **Flujo de Trabajo "Diseño Primero Modificado":** [cite: 25]
+    * Se identificó la necesidad de un `id_reserva`.
+    * Se actualizó primero el diagrama UML (`class_diagram_reserva_antes.puml` -> `class_diagram_reserva_despues.puml`) para reflejar el nuevo atributo en la clase `Reserva`. Esto se hizo en una rama separada.
+    * Luego, se implementó el cambio en el código Python (`reserva_antes.py` -> `reserva_despues.py`), incluyendo la generación del UUID.
+3.  **Control de Versiones (Git):**
+    * Se creó una rama (`feature/reserva-id`) para el desarrollo de esta funcionalidad. [cite: 28]
+    * Se realizaron commits separados y descriptivos para los cambios en el UML y en el código. [cite: 30]
+        * `docs(UML): Add id_reserva attribute to Reserva class`
+        * `feat: Implement auto-generated id_reserva in Reserva class`
+4.  **Documentación (README):** Se aseguró que el `README.md` del proyecto (Ejercicio 4) contenga las directrices sobre cómo manejar estos ciclos de diseño-código y la estructura del repositorio. [cite: 24]
+5.  **Simulación de Revisión:** Se prepararon los archivos "antes" y "después" para simular la revisión del cambio, tal como se solicitaría en un Pull Request. [cite: 26]
+
+Estas decisiones buscan asegurar la coherencia entre el diseño y la implementación, facilitar la colaboración en equipo y mantener un historial claro de los cambios.
