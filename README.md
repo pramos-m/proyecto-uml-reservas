@@ -1,5 +1,7 @@
 # Proyecto Sistema de Reservas con Integración UML
 
+**Enlace al repositorio en GitHub:** [https://github.com/pramos-m/proyecto-uml-reservas](https://github.com/pramos-m/proyecto-uml-reservas)
+
 Este repositorio contiene el código fuente para un sistema de reservas simple y los diagramas UML asociados que documentan su diseño. El objetivo es mantener una sincronización entre el diseño (UML) y la implementación (Python).
 
 ##  आर्किटेक्चर
