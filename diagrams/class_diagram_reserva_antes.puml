@@ -1,0 +1,10 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Reserva {
+  -fecha: Date
+  -hora_inicio: Time
+  -hora_fin: Time
+  +modificarReserva(nueva_fecha: Date, nueva_hora_inicio: Time, nueva_hora_fin: Time)
+}
+@enduml
